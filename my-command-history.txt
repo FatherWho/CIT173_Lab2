@@ -1,0 +1,32 @@
+    1  ls
+    2  cd CIT173_Lab2
+    3  man shell
+    4  man print
+    5  print shell
+    6  cd ~
+    7  shell
+    8  pshell
+    9  cd ~/
+   10  git clone https://github.com/RenoTechnologyAcademy/CIT173_Lab2_Files.git
+   11  ls
+   12  cd CIT173_Lab2_Files
+   13  cat phonebook1.txt phonebook2.txt  > my-phonebook.txt
+   14  wc my-phonebook.txt 
+   15  cat phonelisting1.txt phonelisting2.txt >my-phonelisting.txt
+   16  ls
+   17  tac my-phonebook.txt > my-phonebook-reverse.txt
+   18  ls
+   19  join my-phonebook.txt my-phonelisting.txt > my-joined-phonebook.txt
+   20  ls
+   21  man unexpand
+   22  unexpand my-phonebook.txt >my-tabbed-phonebook.txt
+   23  ls
+   24  sort my-phonebook.txt > my-sorted-phonebook.txt
+   25  ls
+   26  n1 my-phonebook.txt > my-numbered-phonebook.txt
+   27  man n1
+   28  cat -n my-phonebook.txt > my-numbered-phonebook.txt
+   29  ls
+   30  man tail
+   31  tail my-phonebook.txt > my-tail-phonebook.txt
+   32  history > my-command-history.txt
